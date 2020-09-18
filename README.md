@@ -24,8 +24,8 @@ Otherwise you can directly do this by importing and reading the dataframe by pan
 - Now in **Step 1** Read the dataframe and see what's inside the data by printing heads and tails of it.
 - In **Step 2** we're analyzing the data so we can plot the reviews "Score" in histogram with the help of plotly.</br>
 Here is the result we can see that most of the customer rating is positive. This leads us to believe that most reviews will be positive, which will be analyzed next.
-![Step 2 Histogram](Dragster.jpg)</br>
-We can now make the wordcloud of the most frequent words which will demostrate the type of reviews people posted. Here is my output ![Step 2 WordCloud](Dragster.jpg)</br>
+![Step 2 Histogram](https://github.com/taneemishere/Sentiment-Analysis-with-Product-Reviews/blob/master/newplot.png)</br>
+We can now make the wordcloud of the most frequent words which will demostrate the type of reviews people posted.</br>
 - In **Step 3** we're classifying reviews into “positive” and “negative,” so we can use this as training data for our sentiment classification model. Positive reviews will be classified as +1, and negative reviews will be classified as -1. We will classify all reviews with ‘Score’ > 3 as +1, indicating that they are positive. All reviews with ‘Score’ < 3 will be classified as -1. Reviews with ‘Score’ = 3 will be dropped, because they are neutral. Our model will only classify positive and negative reviews.
 - In **Step 4** doin some more data analysis by making the wordclouds of the positive and negative reviews which we classify in step 3.</br>
 Now by ploting the nagative and positive histogram we can see that more of the reviews are positive.
