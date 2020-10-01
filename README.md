@@ -20,7 +20,7 @@ Score — The product rating provided by the customer.
 First of all here I used the Google Colab which is free and powerful that provides free GPU power. That's why you're seeing these lines of codes</br>```from google.colab import drive```\
 ```drive.mount('/content/drive')```\
 ```path = "/content/drive/My Drive/Colab Notebooks/Reviews.csv"```\
-Otherwise you can directly do this by importing and reading the dataframe by pandas.</br>
+Otherwise you can directly do this by importing and reading the dataframe by pandas if you're doing in local jupyter notebook.</br>
 - Now in **Step 1** Read the dataframe and see what's inside the data by printing heads and tails of it.
 - In **Step 2** we're analyzing the data so we can plot the reviews "Score" in histogram with the help of plotly.</br>
 Here is the result we can see that most of the customer rating is positive. This leads us to believe that most reviews will be positive, which will be analyzed next.
